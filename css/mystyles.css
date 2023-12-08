@@ -1,6 +1,29 @@
+h1{
+    font-family: sans-serif;
+}
 h2{
     font-family:sans-serif
 }
+.fontserif{
+    font-family: var(--bs-body-font-family);
+    font-size: large;
+}
 .darkcolo{
-    background-color: rgb(60, 60, 172) !important; 
+    background-color: rgb(24, 24, 106) !important; 
+}
+.bluecolo{
+    color: rgb(24, 24, 106) !important;
+}
+.greycolo{
+    color: rgb(36, 36, 36);
+}
+p.lead{
+    margin-bottom: 2rem !important;
+}
+a{
+    color: rgb(39, 39, 109);
+    transition: color 0.3s;
+}
+a:hover{
+    color: rgb(50, 50, 197);
 }

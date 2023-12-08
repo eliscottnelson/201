@@ -1,0 +1,113 @@
+/* Body styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: rgb(83, 106, 156);
+  color: #3f3f3f;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 36px;
+  color: #fff;
+}
+
+/* List styles */
+ol, ul {
+  margin: 20px;
+  padding: 0;
+}
+
+ol li {
+  list-style-type: decimal;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+/* Image styles */
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Embedded video styles */
+iframe {
+  display: block;
+  margin: 20px auto;
+}
+
+/* Anchor styles */
+a {
+  display: block;
+  text-align: center;
+  margin: 20px 0;
+  text-decoration: underline;
+  color: #f5ec74;
+}
+
+/* Custom div styles */
+.custom-div-1, .custom-div-2, .custom-div-3 {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+.image-container {
+  text-align: center; /* Center-align content */
+}
+
+figcaption {
+  margin-top: 10px; /* Add some space between image and caption */
+  font-style: italic; /* Optional: Italicize caption text */
+  /* Additional styling as needed */
+}
+.video-container {
+  text-align: center;
+}
+
+figcaption {
+  margin-top: 10px;
+  font-style: italic;
+  /* Additional styling as needed */
+}
+.custom-div-3 {
+  text-align: center; /* Center-align content within custom-div-3 */
+}
+
+.video-container {
+  display: block;
+  margin: 0 auto;
+  width: 80%; /* Adjust the width of the video container */
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio (height/width) */
+  overflow: hidden;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
